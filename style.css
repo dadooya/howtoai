@@ -3,6 +3,7 @@
   grid-template-colmuns:1fr 1fr;
   grid-auto-rows:minmax(100px,auto);
   gap:10px;
+  border:3px solid red;
 }
 .item{
   border:5px solid black;
