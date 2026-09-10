@@ -13,7 +13,7 @@ async function loadSearchData() {
 
   // URL 파라미터가 없는 경우
   if (!searchQuery) {
-    alert('URL에 ?search= 서비스명 입력이 없습니다.');
+    //alert('URL에 ?search= 서비스명 입력이 없습니다.');
     if (nameEl) nameEl.textContent = '검색어를 입력해 주세요.';
     return;
   }
@@ -50,12 +50,12 @@ async function loadSearchData() {
         imgEl.style.display = 'none';
       }
     } else {
-      alert(`'${searchQuery}'에 해당하는 데이터를 JSON에서 찾을 수 없습니다.`);
+      //alert(`'${searchQuery}'에 해당하는 데이터를 JSON에서 찾을 수 없습니다.`);
       if (nameEl) nameEl.textContent = '정보를 찾을 수 없습니다.';
     }
   } catch (error) {
     // 에러 발생 시 알림창 띄우기
-    alert(`오류 발생:\n${error.message}`);
+    //alert(`오류 발생:\n${error.message}`);
     if (nameEl) nameEl.textContent = '데이터 로드 실패';
   }
 }
