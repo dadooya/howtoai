@@ -63,4 +63,6 @@ async function loadSearchData() {
 }
 
 // 스크립트 실행
-loadSearchData();
+document.addEventListener('DOMContentLoaded', () => {
+  loadSearchData();
+});
