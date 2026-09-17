@@ -41,7 +41,7 @@
   display: block;      /* 이미지 아래쪽에 미세하게 생기는 빈 공간(여백)을 제거합니다 */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   #img {
     width: 25%; /* 화면이 넓어지면 이미지 크기를 반으로 줄임 */
   }
