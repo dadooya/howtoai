@@ -53,3 +53,33 @@
   margin-top: 20px;        /* 위쪽 여백 */
   margin-bottom: 10px;     /* 아래쪽(이미지와의 사이) 여백 */
 }
+
+/* 기본 마진 제거하여 파란색 줄이 좌우로 꽉 차게 설정 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 💙 제일 위 파란색 줄 스타일 */
+#header-bar {
+  background-color: #007bff; /* 선명하고 깔끔한 파란색 */
+  padding: 10px 0;          /* 위아래 여백을 주어 로고 주위를 감싸줍니다 */
+  text-align: center;       /* 로고 이미지 가운데 정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 약간의 입체감 그림자 */
+}
+
+/* 🖼️ 상단 바 내부의 로고 이미지 스타일 */
+.logo-img {
+  height: 40px;             /* ⭐ 상단 바 크기에 맞게 로고 높이를 지정 (원하는 크기로 조절 가능) */
+  width: auto;              /* 가로 길이는 세로 비율에 맞춰 자동으로 조절 */
+  display: block;
+}
+
+/* 기존 #result 영역에 여백 추가 */
+#result {
+  padding: 20px;
+}
+
