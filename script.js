@@ -14,7 +14,7 @@ async function loadSearchData() {
   // URL 파라미터가 없는 경우
   if (!searchQuery) {
     //alert('URL에 ?search= 서비스명 입력이 없습니다.');
-    if (nameEl) nameEl.textContent = '검색어를 입력해 주세요.';
+    if (nameEl) nameEl.textContent = 'How to ai';
     return;
   }
 
